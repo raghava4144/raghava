@@ -32,5 +32,5 @@ struct ListNode* mergeTwoLists(struct ListNode* list1, struct ListNode* list2) {
         tail->next = list2;
     }
 
-    return dummy.next;
+    return dummy.next
 }
